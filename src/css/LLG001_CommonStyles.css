@@ -1,0 +1,120 @@
+/* Fuentes generales */
+@font-face {
+    font-family: 'fontBold1';
+    src: url('https://apis.grupollamagas.pe:5003/api/v1/ECOMMERCE/TIPOGRAF%C3%8DA/PPFORMULA-EXTRABOLD.OTF') format('opentype');
+}
+@font-face {
+    font-family: 'fontMedm1';
+    src: url('https://apis.grupollamagas.pe:5003/api/v1/ECOMMERCE/TIPOGRAF%C3%8DA/PPFORMULA-MEDIUM.OTF') format('opentype');
+}
+/* Variables generales */
+:root {
+    --backcolor1: #59338b;
+    --forecolor11: #ffdb03;
+    --forecolor12: white;
+    --backcolor2: #ffdb03;
+    --forecolor21: #59338b;
+    --forecolor22: white;
+    --backcolor3: #9a7bbf;
+
+    --font-bold: 'fontBold1', sans-serif;
+    --font-medium: 'fontMedm1', sans-serif;
+    --font-regular: Arial, sans-serif;
+
+    --brand-purple: #59338b;
+    --brand-yellow: #ffdb03;
+
+    --background-grey: #e5e5e5;
+    --background-purple: #cebce7;
+    --background-yellow: #fff4b3;
+
+    --text-light: #ffffff;
+    --text-dark: #202020;
+}
+
+/* Aplicación de fuentes generales */
+
+body {
+    font-family: var(--font-regular);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-bold);
+}
+
+/* Estilos generales */
+
+.x-container-c {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.x-container-r {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header,
+.footer,
+.content {
+    width: 100%; /* Asegura que todos los elementos ocupen el 100% */
+}
+
+.rz-body {
+    padding: 0px !important;
+    overflow: hidden !important;
+}
+
+.x-shadow-g1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.x-shadow-g2 {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.x-pad-10 {
+    padding: 10px;
+}
+
+.x-pad-20 {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.r-pad-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.r-gap-25 {
+    row-gap: 25px;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+
+.carousel-arrow {
+    border-radius: 50%; /* Hace la imagen circular */
+    width: 18px; /* Ajusta el tamaño de la imagen */
+    height: 18px; /* Asegura que las dimensiones sean iguales para mantener la forma */
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease; /* Transición suave para escala y sombra */
+}
+
+.carousel-arrow:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen ligeramente */
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Sombra suave y difusa de color amarillo */
+}

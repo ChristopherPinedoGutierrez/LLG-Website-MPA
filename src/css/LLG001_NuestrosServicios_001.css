@@ -1,0 +1,90 @@
+.x-servicesC2-container {
+    width: 100%;
+    height: 300px;
+}
+
+.x-servicesC2-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.x-servicesC2-cards::-webkit-scrollbar {
+    height: 6px; /* Definir la altura del scroll horizontal */
+}
+.x-servicesC2-cards::-webkit-scrollbar-track {
+    background: transparent; /* Fondo del track transparente */
+}
+.x-servicesC2-cards::-webkit-scrollbar-thumb {
+    background-color: #800080; /* Color morado para la barra de desplazamiento */
+    border-radius: 10px; /* Bordes redondeados para un mejor aspecto */
+}
+.x-servicesC2-cards::-webkit-scrollbar-button {
+    display: none;
+}
+
+.x-servicesC2-card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.x-servicesC2-card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    transition: transform 0.3s;
+}
+
+.x-servicesC2-card img:hover {
+    transform: scale(1.05);
+}
+
+.x-servicesC2-card h4 {
+    position: relative;
+    bottom: 10px;
+    top: -80px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.x-servicesC2-card button {
+    position: relative;
+    top: -90px;
+    left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.x-carouselC2-control-prev,
+.x-carouselC2-control-next {
+    background-color: #800080;
+    border-radius: 50%;
+}
+
+.x-navigatorC2-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.x-navigatorC2-cards button {
+    background-color: transparent;
+    border: none;
+}
+
+.x-navigatorC2-cards button img {
+    width: 40px;
+    height: auto;
+}

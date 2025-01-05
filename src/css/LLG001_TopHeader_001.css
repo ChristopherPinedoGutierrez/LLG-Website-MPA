@@ -1,0 +1,43 @@
+.x-content1-t1 {
+    background-color: var(--backcolor1);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.x-content2-t1 {
+    background-color: var(--backcolor2);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.x-titulo1-t1 {
+    font-size: 16px;
+    color: var(--forecolor11);
+    font-family: 'fontBold1', sans-serif;
+}
+
+.x-subtit1-t1 {
+    font-size: 14px;
+    color: var(--forecolor12);
+    font-family: 'fontMedm1', sans-serif;
+}
+
+.x-titulo2-t1 {
+    font-size: 16px;
+    color: var(--forecolor2);
+    font-family: 'fontBold21', sans-serif;
+}
+
+.x-subtit2-t1 {
+    font-size: 14px;
+    color: var(--forecolor22);
+    font-family: 'fontMedm1', sans-serif;
+}
